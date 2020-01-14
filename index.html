@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Take Off</title>
+	<link rel="stylesheet" href="ass/css/bootstrap.min.css">
+	<script src="ass/js/jquery-3.4.1.min.js"></script>
+	<script src="ass/js/bootstrap.min.js"></script>
+	<script src="ass/js/typed.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Anton|Pacifico&display=swap" rel="stylesheet">
+	<style>
+			@font-face {
+				font-family: "BebasNeue-Regular";
+				src: url("/ass/fons/BebasNeue-Bold.ttf");
+				}
+				p {
+					font-family: sans-serif;
+					font-size: 14px;
+					font-weight: 500;
+					color: #000000;
+					opacity: 0.3;
+				  }
+				  
+				  .letter {
+					width: 24px;
+					display: inline-block;
+					vertical-align: middle;
+					position: relative;
+					overflow: hidden;
+					margin: 0 0;
+					font-family: sans-serif;
+					font-size: 24px;
+					font-weight: 600;
+					line-height: 24px;
+					text-transform: uppercase;
+					color: #000000;
+				  }
+				  .letter:before {
+					position: absolute;
+					top: 0;
+					left: 0;
+					width: 100%;
+					word-break: break-all;
+					background-color: #ffffff;
+				  }
+				  
+				  .letter:nth-child(1):before {
+					content: "7245189603";
+					margin-top: -24px;
+					-webkit-animation-name: letter1;
+							animation-name: letter1;
+					-webkit-animation-duration: 1.88s;
+							animation-duration: 1.88s;
+					-webkit-animation-delay: 0.06s;
+							animation-delay: 0.06s;
+					-webkit-animation-fill-mode: forwards;
+							animation-fill-mode: forwards;
+				  }
+				  
+				  @-webkit-keyframes letter1 {
+					from {
+					  margin-top: -24px;
+					}
+					to {
+					  margin-top: 24px;
+					}
+				  }
+				  
+				  @keyframes letter1 {
+					from {
+					  margin-top: -24px;
+					}
+					to {
+					  margin-top: 24px;
+					}
+				  }
+				  .letter:nth-child(2):before {
+					content: "9802734516";
+					margin-top: -48px;
+					-webkit-animation-name: letter2;
+							animation-name: letter2;
+					-webkit-animation-duration: 1.2533333333s;
+							animation-duration: 1.2533333333s;
+					-webkit-animation-delay: 0.53s;
+							animation-delay: 0.53s;
+					-webkit-animation-fill-mode: forwards;
+							animation-fill-mode: forwards;
+				  }
+				  
+				  @-webkit-keyframes letter2 {
+					from {
+					  margin-top: -48px;
+					}
+					to {
+					  margin-top: 24px;
+					}
+				  }
+				  
+				  @keyframes letter2 {
+					from {
+					  margin-top: -48px;
+					}
+					to {
+					  margin-top: 24px;
+					}
+				  }
+				  .letter:nth-child(3):before {
+					content: "7324960158";
+					margin-top: -168px;
+					-webkit-animation-name: letter3;
+							animation-name: letter3;
+					-webkit-animation-duration: 2.485s;
+							animation-duration: 2.485s;
+					-webkit-animation-delay: 0.29s;
+							animation-delay: 0.29s;
+					-webkit-animation-fill-mode: forwards;
+							animation-fill-mode: forwards;
+				  }
+				  
+				  @-webkit-keyframes letter3 {
+					from {
+					  margin-top: -168px;
+					}
+					to {
+					  margin-top: 24px;
+					}
+				  }
+				  
+				  @keyframes letter3 {
+					from {
+					  margin-top: -168px;
+					}
+					to {
+					  margin-top: 24px;
+					}
+				  }
+				  .letter:nth-child(4):before {
+					content: "9753068241";
+					margin-top: -144px;
+					-webkit-animation-name: letter4;
+							animation-name: letter4;
+					-webkit-animation-duration: 0.72s;
+							animation-duration: 0.72s;
+					-webkit-animation-delay: 0.79s;
+							animation-delay: 0.79s;
+					-webkit-animation-fill-mode: forwards;
+							animation-fill-mode: forwards;
+				  }
+				  
+				  @-webkit-keyframes letter4 {
+					from {
+					  margin-top: -144px;
+					}
+					to {
+					  margin-top: 24px;
+					}
+				  }
+				  
+				  @keyframes letter4 {
+					from {
+					  margin-top: -144px;
+					}
+					to {
+					  margin-top: 24px;
+					}
+				  }
+				  .letter:nth-child(5):before {
+					content: "8321904567";
+					margin-top: -192px;
+					-webkit-animation-name: letter5;
+							animation-name: letter5;
+					-webkit-animation-duration: 1.4933333333s;
+							animation-duration: 1.4933333333s;
+					-webkit-animation-delay: 0.58s;
+							animation-delay: 0.58s;
+					-webkit-animation-fill-mode: forwards;
+							animation-fill-mode: forwards;
+				  }
+				  
+				  @-webkit-keyframes letter5 {
+					from {
+					  margin-top: -192px;
+					}
+					to {
+					  margin-top: 24px;
+					}
+				  }
+				  
+				  @keyframes letter5 {
+					from {
+					  margin-top: -192px;
+					}
+					to {
+					  margin-top: 24px;
+					}
+				  }
+				  .letter:nth-child(6):before {
+					content: "0975246318";
+					margin-top: 0px;
+					-webkit-animation-name: letter6;
+							animation-name: letter6;
+					-webkit-animation-duration: 0s;
+							animation-duration: 0s;
+					-webkit-animation-delay: 0.53s;
+							animation-delay: 0.53s;
+					-webkit-animation-fill-mode: forwards;
+							animation-fill-mode: forwards;
+				  }
+				  
+				  @-webkit-keyframes letter6 {
+					from {
+					  margin-top: 0px;
+					}
+					to {
+					  margin-top: 24px;
+					}
+				  }
+				  
+				  @keyframes letter6 {
+					from {
+					  margin-top: 0px;
+					}
+					to {
+					  margin-top: 24px;
+					}
+				  }
+				  .letter:nth-child(7):before {
+					content: "6048512397";
+					margin-top: -120px;
+					-webkit-animation-name: letter7;
+							animation-name: letter7;
+					-webkit-animation-duration: 2.0666666667s;
+							animation-duration: 2.0666666667s;
+					-webkit-animation-delay: 0.38s;
+							animation-delay: 0.38s;
+					-webkit-animation-fill-mode: forwards;
+							animation-fill-mode: forwards;
+				  }
+				  
+				  @-webkit-keyframes letter7 {
+					from {
+					  margin-top: -120px;
+					}
+					to {
+					  margin-top: 24px;
+					}
+				  }
+				  
+				  @keyframes letter7 {
+					from {
+					  margin-top: -120px;
+					}
+					to {
+					  margin-top: 24px;
+					}
+				  }
+				  .letter:nth-child(8):before {
+					content: "4028351976";
+					margin-top: -144px;
+					-webkit-animation-name: letter8;
+							animation-name: letter8;
+					-webkit-animation-duration: 1.3028571429s;
+							animation-duration: 1.3028571429s;
+					-webkit-animation-delay: 0.62s;
+							animation-delay: 0.62s;
+					-webkit-animation-fill-mode: forwards;
+							animation-fill-mode: forwards;
+				  }
+				  
+				  @-webkit-keyframes letter8 {
+					from {
+					  margin-top: -144px;
+					}
+					to {
+					  margin-top: 24px;
+					}
+				  }
+				  
+				  @keyframes letter8 {
+					from {
+					  margin-top: -144px;
+					}
+					to {
+					  margin-top: 24px;
+					}
+				  }
+				  .letter:nth-child(9):before {
+					content: "6432159087";
+					margin-top: -72px;
+					-webkit-animation-name: letter9;
+							animation-name: letter9;
+					-webkit-animation-duration: 2.43s;
+							animation-duration: 2.43s;
+					-webkit-animation-delay: 0.19s;
+							animation-delay: 0.19s;
+					-webkit-animation-fill-mode: forwards;
+							animation-fill-mode: forwards;
+				  }
+				  
+				  @-webkit-keyframes letter9 {
+					from {
+					  margin-top: -72px;
+					}
+					to {
+					  margin-top: 24px;
+					}
+				  }
+				  
+				  @keyframes letter9 {
+					from {
+					  margin-top: -72px;
+					}
+					to {
+					  margin-top: 24px;
+					}
+				  }
+				  .letter:nth-child(10):before {
+					content: "5718240936";
+					margin-top: -192px;
+					-webkit-animation-name: letter10;
+							animation-name: letter10;
+					-webkit-animation-duration: 1.3155555556s;
+							animation-duration: 1.3155555556s;
+					-webkit-animation-delay: 0.63s;
+							animation-delay: 0.63s;
+					-webkit-animation-fill-mode: forwards;
+							animation-fill-mode: forwards;
+				  }
+				  
+				  @-webkit-keyframes letter10 {
+					from {
+					  margin-top: -192px;
+					}
+					to {
+					  margin-top: 24px;
+					}
+				  }
+				  
+				  @keyframes letter10 {
+					from {
+					  margin-top: -192px;
+					}
+					to {
+					  margin-top: 24px;
+					}
+				  }
+				  .letter:nth-child(11):before {
+					content: "8065394271";
+					margin-top: 0px;
+					-webkit-animation-name: letter11;
+							animation-name: letter11;
+					-webkit-animation-duration: 0s;
+							animation-duration: 0s;
+					-webkit-animation-delay: 0.17s;
+							animation-delay: 0.17s;
+					-webkit-animation-fill-mode: forwards;
+							animation-fill-mode: forwards;
+				  }
+				  
+				  @-webkit-keyframes letter11 {
+					from {
+					  margin-top: 0px;
+					}
+					to {
+					  margin-top: 24px;
+					}
+				  }
+				  
+				  @keyframes letter11 {
+					from {
+					  margin-top: 0px;
+					}
+					to {
+					  margin-top: 24px;
+					}
+				  }
+				  .letter:nth-child(12):before {
+					content: "9217503864";
+					margin-top: -216px;
+					-webkit-animation-name: letter12;
+							animation-name: letter12;
+					-webkit-animation-duration: 0.072s;
+							animation-duration: 0.072s;
+					-webkit-animation-delay: 0.98s;
+							animation-delay: 0.98s;
+					-webkit-animation-fill-mode: forwards;
+							animation-fill-mode: forwards;
+				  }
+				  
+				  @-webkit-keyframes letter12 {
+					from {
+					  margin-top: -216px;
+					}
+					to {
+					  margin-top: 24px;
+					}
+				  }
+				  
+				  @keyframes letter12 {
+					from {
+					  margin-top: -216px;
+					}
+					to {
+					  margin-top: 24px;
+					}
+				  }
+				  .letter:nth-child(13):before {
+					content: "8092453761";
+					margin-top: -72px;
+					-webkit-animation-name: letter13;
+							animation-name: letter13;
+					-webkit-animation-duration: 0.84s;
+							animation-duration: 0.84s;
+					-webkit-animation-delay: 0.72s;
+							animation-delay: 0.72s;
+					-webkit-animation-fill-mode: forwards;
+							animation-fill-mode: forwards;
+				  }
+				  
+				  @-webkit-keyframes letter13 {
+					from {
+					  margin-top: -72px;
+					}
+					to {
+					  margin-top: 24px;
+					}
+				  }
+				  
+				  @keyframes letter13 {
+					from {
+					  margin-top: -72px;
+					}
+					to {
+					  margin-top: 24px;
+					}
+				  }
+				  .letter:nth-child(14):before {
+					content: "7401862359";
+					margin-top: -168px;
+					-webkit-animation-name: letter14;
+							animation-name: letter14;
+					-webkit-animation-duration: 1.89s;
+							animation-duration: 1.89s;
+					-webkit-animation-delay: 0.46s;
+							animation-delay: 0.46s;
+					-webkit-animation-fill-mode: forwards;
+							animation-fill-mode: forwards;
+				  }
+				  
+				  @-webkit-keyframes letter14 {
+					from {
+					  margin-top: -168px;
+					}
+					to {
+					  margin-top: 24px;
+					}
+				  }
+				  
+				  @keyframes letter14 {
+					from {
+					  margin-top: -168px;
+					}
+					to {
+					  margin-top: 24px;
+					}
+				  }
+				  .letter:nth-child(15):before {
+					content: "0853971462";
+					margin-top: -120px;
+					-webkit-animation-name: letter15;
+							animation-name: letter15;
+					-webkit-animation-duration: 3.1666666667s;
+							animation-duration: 3.1666666667s;
+					-webkit-animation-delay: 0.05s;
+							animation-delay: 0.05s;
+					-webkit-animation-fill-mode: forwards;
+							animation-fill-mode: forwards;
+				  }
+				  
+				  @-webkit-keyframes letter15 {
+					from {
+					  margin-top: -120px;
+					}
+					to {
+					  margin-top: 24px;
+					}
+				  }
+				  
+				  @keyframes letter15 {
+					from {
+					  margin-top: -120px;
+					}
+					to {
+					  margin-top: 24px;
+					}
+				  }
+				  .letter:nth-child(16):before {
+					content: "5976421803";
+					margin-top: -216px;
+					-webkit-animation-name: letter16;
+							animation-name: letter16;
+					-webkit-animation-duration: 3.492s;
+							animation-duration: 3.492s;
+					-webkit-animation-delay: 0.03s;
+							animation-delay: 0.03s;
+					-webkit-animation-fill-mode: forwards;
+							animation-fill-mode: forwards;
+				  }
+				  
+				  @-webkit-keyframes letter16 {
+					from {
+					  margin-top: -216px;
+					}
+					to {
+					  margin-top: 24px;
+					}
+				  }
+				  
+				  @keyframes letter16 {
+					from {
+					  margin-top: -216px;
+					}
+					to {
+					  margin-top: 24px;
+					}
+				  }
+				  
+				.loader{
+					position: absolute;
+					top: 40%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+				}
+				.lbody{
+					background: #ffffff;
+					widows: 100%;
+					height: 100vh;
+				}
+				#ltext {
+					width: 400px;
+					text-align: center!important;
+					position: absolute;
+					top: 60%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+				}
+	</style>
+</head>
+<body>
+	<div class="lbody">
+		<img class="loader" src="ass/img/plane.png" alt="" style="width:250px">
+		<span id="ltext" style="font-family: 'Anton', sans-serif;font-size: -webkit-xxx-large;letter-spacing: .5px;font-weight: 500;">
+		<!--	<svg viewbox="0 0 100 20">
+				<defs>
+				  <linearGradient id="gradient" x1="0" x2="0" y1="0" y2="1">
+					<stop offset="5%" stop-color="#326384"/>
+					<stop offset="95%" stop-color="#123752"/>
+				  </linearGradient>
+				  <pattern id="wave" x="0" y="0" width="120" height="20" patternUnits="userSpaceOnUse">
+					<path id="wavePath" d="M-40 9 Q-30 7 -20 9 T0 9 T20 9 T40 9 T60 9 T80 9 T100 9 T120 9 V20 H-40z" mask="url(#mask)" fill="url(#gradient)"> 
+					  <animateTransform
+						  attributeName="transform"
+						  begin="0s"
+						  dur="1.5s"
+						  type="translate"
+						  from="0,0"
+						  to="40,0"
+						  repeatCount="indefinite" />
+					</path>
+				  </pattern>
+				</defs>
+				<text text-anchor="middle" x="50" y="15" font-size="17" fill="url(#wave)"  fill-opacity="0.6">TEAM TAKE OFF</text>
+				<text text-anchor="middle" x="50" y="15" font-size="17" fill="url(#gradient)" fill-opacity="0.1">TEAM TAKE OFF</text>
+			  </svg>-->
+			  <div class="letters"><span class="letter">T</span><span class="letter">E</span><span class="letter">A</span><span class="letter">M</span><span class="letter"> </span><span class="letter">T</span><span class="letter">A</span><span class="letter">K</span><span class="letter">E</span><span class="letter"> </span><span class="letter">O</span><span class="letter">F</span><span class="letter">F</span>
+			  </div>
+			  </span>
+			  <span id="ltext" style="margin-top: 40px;font-family: 'Pacifico', cursive;font-size: larger;">Dream Big Dream High</span>
+	</div>
+
+	<div class="container">
+		<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" style="margin-top: 12vh;">
+			<div class="carousel-inner">
+			  <div class="carousel-item active" id="akshaya">
+				  <div class="row">
+					  <div class="col-sm-12 text-center">
+							<img class="rounded-circle" src="/ass/img/chand.jpg" style="width:200px;height:200px;" alt="">
+					  </div>
+					  <div class="col-sm-12 text-center mt-5">
+							<div id="arr1"><p>Hi</p><p>Iam Akshaya</p></div>
+							<h2><strong id="str1" style="font-family: 'BebasNeue-Regular';letter-spacing: 3px;"></strong></h2>
+					  </div>
+					  <div class="col-lg-6 text-center offset-lg-3 mt-3">
+							<p class="text-center px-4"  style="min-height: 100px;">Sou estudande de Ciência da Computação na Universidade Federal do Ceará (UFC) - Campus Russas e Desenvolvedor full-stack, para web e mobile.</p>
+					  </div>
+				  </div>
+			  </div>
+			  <div class="carousel-item" id="ardra">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							  <img class="rounded-circle" src="/ass/img/chikku.jpg" style="width:200px;height:200px;" alt="">
+						</div>
+						<div class="col-sm-12 text-center mt-5">
+							<div id="arr2"><p>Hi</p><p>Iam Chand</p><p><p>( the Captian )</p></p></div>
+							  <h2><strong id="str2" style="font-family: 'BebasNeue-Regular';letter-spacing: 3px;"></strong></h2>
+						</div>
+						<div class="col-lg-6 text-center offset-lg-3 mt-3">
+							  <p class="text-center px-4" style="min-height: 100px;">An aspiring Btech student with interpersonal skills. My passion towards speaking and managing events is something that drives my managerial skills.
+								Active volunteer in both technical and literary organizations. Skilled in communication, teamwork, leadership.</p>
+						</div>
+					</div>
+				</div>
+			  <div class="carousel-item" id="ayana">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							  <img class="rounded-circle" src="/ass/img/chand.jpg" style="width:200px;height:200px;" alt="">
+						</div>
+						<div class="col-sm-12 text-center mt-5">
+							<div id="arr3"><p>Hi</p><p>Iam Ayana</p></div>
+							  <h2><strong id="str3" style="font-family: 'BebasNeue-Regular';letter-spacing: 3px;"></strong></h2>
+						</div>
+						<div class="col-lg-6 text-center offset-lg-3 mt-3">
+							  <p class="text-center px-4" style="min-height: 100px;">Sou estudande de Ciência da Computação na Universidade Federal do Ceará (UFC) - Campus Russas e Desenvolvedor full-stack, para web e mobile.</p>
+						</div>
+					</div>
+				</div>
+			  <div class="carousel-item" id="chand">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							  <img class="rounded-circle" src="/ass/img/chand.jpg" style="width:200px;height:200px;" alt="">
+						</div>
+						<div class="col-sm-12 text-center mt-5">
+							<div id="arr4"><p>Hi</p><p>Iam Chand</p><p>( the Vice-captain )</p></div>
+							  <h2><strong id="str4" style="font-family: 'BebasNeue-Regular';letter-spacing: 3px;"></strong></h2>
+						</div>
+						<div class="col-lg-6 text-center offset-lg-3 mt-3">
+							  <p class="text-center px-4" style="min-height: 100px;">Sou estudande de Ciência da Computação na Universidade Federal do Ceará (UFC) - Campus Russas e Desenvolvedor full-stack, para web e mobile.</p>
+						</div>
+					</div>
+				</div>
+			  <div class="carousel-item" id="chriz">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							  <img class="rounded-circle" src="/ass/img/chriz.jpg" style="width:200px;height:200px;" alt="">
+						</div>
+						<div class="col-sm-12 text-center mt-5">
+							<div id="arr5"><p>Hi</p><p>Iam Christo</p></div>
+							  <h2><strong id="str5" style="font-family: 'BebasNeue-Regular';letter-spacing: 3px;"></strong></h2>
+						</div>
+						<div class="col-lg-6 text-center offset-lg-3 mt-3">
+							  <p class="text-center px-4" style="min-height: 100px;">Sou estudande de Ciência da Computação na Universidade Federal do Ceará (UFC) - Campus Russas e Desenvolvedor full-stack, para web e mobile.</p>
+						</div>
+					</div>
+				</div>
+			  <div class="carousel-item" id="gowri">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							  <img class="rounded-circle" src="/ass/img/gowri.jpg" style="width:200px;height:200px;" alt="">
+						</div>
+						<div class="col-sm-12 text-center mt-5">
+							<div id="arr6"><p>Hi</p><p>Iam Gowri</p></div>
+							  <h2><strong id="str6" style="font-family: 'BebasNeue-Regular';letter-spacing: 3px;"></strong></h2>
+						</div>
+						<div class="col-lg-6 text-center offset-lg-3 mt-3">
+							  <p class="text-center px-4" style="min-height: 100px;">S4 electronic student. Hardworking and interested in doing activities.</p>
+						</div>
+					</div>
+				</div>
+			<div class="carousel-item" id="jacob">
+				  <div class="row">
+					  <div class="col-sm-12 text-center">
+							<img class="rounded-circle" src="/ass/img/chand.jpg" style="width:200px;height:200px;" alt="">
+					  </div>
+					  <div class="col-sm-12 text-center mt-5">
+						  <div id="arr7"><p>Hi</p><p>Iam Jacob</p></div>
+							<h2><strong id="str7" style="font-family: 'BebasNeue-Regular';letter-spacing: 3px;"></strong></h2>
+					  </div>
+					  <div class="col-lg-6 text-center offset-lg-3 mt-3">
+							<p class="text-center px-4" style="min-height: 100px;">Sou estudande de Ciência da Computação na Universidade Federal do Ceará (UFC) - Campus Russas e Desenvolvedor full-stack, para web e mobile.</p>
+					  </div>
+				  </div>
+			  </div>
+		  </div>
+			<a class="carousel-control-prev black-text" href="#carouselExampleCaptions" role="button" data-slide="prev">
+			  <span class="carousel-control-prev-icon  black-text" aria-hidden="true" style="color: black;"><</span>
+			  <span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+			  <span class="carousel-control-next-icon" aria-hidden="true" style="color: black;">></span>
+			  <span class="sr-only">Next</span>
+			</a>
+		  </div>
+		  <div class="row mt-5 text-center px-5">
+			  <div class="col m-2 text-center active" data-target="#carouselExampleCaptions" data-slide-to="0"> 
+				  <img src="/ass/img/chand.jpg" alt="" class="rounded-circle" style="width:43px;height:43px;">
+				  <br><small>Akshaya</small>
+			  </div>
+			  <div class="col m-2 text-center">
+				  <img src="/ass/img/chikku.jpg" alt="" class="rounded-circle" style="width:43px;height:43px;"  data-target="#carouselExampleCaptions" data-slide-to="1">
+				  <br><small>Ardra</small>
+			  </div>
+			  <div class="col m-2 text-center">
+				  <img src="/ass/img/chand.jpg" alt="" class="rounded-circle" style="width:43px;height:43px;"  data-target="#carouselExampleCaptions" data-slide-to="2">
+				  <br><small>Ayana</small>
+			  </div>
+			  <div class="col m-2 text-center">
+				  <img src="/ass/img/chand.jpg" alt="" class="rounded-circle" style="width:43px;height:43px;"  data-target="#carouselExampleCaptions" data-slide-to="3">
+				  <br><small>Chand</small>
+			  </div>
+			  <!--<div class="col-1 ml-3 d-sm-block d-md-block d-lg-none d-xl-none"></div>-->
+			  <div class="col m-2 text-center">
+				  <img src="/ass/img/chriz.jpg" alt="" class="rounded-circle" style="width:43px;height:43px;"  data-target="#carouselExampleCaptions" data-slide-to="4">
+				  <br><small>Christo</small>
+			  </div>
+			  <!--<div class="col m-2 text-center d-none d-lg-block d-xl-block"></div>-->
+			  <div class="col m-2 text-center">
+				  <img src="/ass/img/gowri.jpg" alt="" class="rounded-circle" style="width:43px;height:43px;"  data-target="#carouselExampleCaptions" data-slide-to="5">
+				  <br><small>Gowri</small>
+			  </div>
+			  <div class="col m-2 text-center">
+				  <img src="/ass/img/chand.jpg" alt="" class="rounded-circle" style="width:43px;height:43px;"  data-target="#carouselExampleCaptions" data-slide-to="6">
+				  <br><small>Jacob</small>
+			  </div>
+		  </div>
+	</div>
+	<script>
+		$('.container').hide()
+		$(document).ready(function(){
+				var t1 = new Typed('#str1', {
+					stringsElement: '#arr1',
+					typeSpeed: 100,
+					loop: true,
+					backSpeed: 50,
+					backDelay: 20,
+				
+					});
+				var t2 = new Typed('#str2', {
+						stringsElement: '#arr2',
+						typeSpeed: 100,
+						loop: true,
+						backSpeed: 20,
+						backDelay: 1000,
+						});
+				var t3 = new Typed('#str3', {
+						stringsElement: '#arr3',
+						typeSpeed: 100,
+						loop: true,
+						backSpeed: 20,
+						backDelay: 1000,
+						});
+				var t4 = new Typed('#str4', {
+						stringsElement: '#arr4',
+						typeSpeed: 100,
+						loop: true,
+						backSpeed: 20,
+						backDelay: 1000,
+						});
+				var t5 = new Typed('#str5', {
+						stringsElement: '#arr5',
+						typeSpeed: 100,
+						loop: true,
+						backSpeed: 20,
+						backDelay: 1000,
+						});
+				var t6 = new Typed('#str6', {
+						stringsElement: '#arr6',
+						typeSpeed: 100,
+						loop: true,
+						backSpeed: 20,
+						backDelay: 1000,
+						});
+				var t7 = new Typed('#str7', {
+						stringsElement: '#arr7',
+						typeSpeed: 100,
+						loop: true,
+						backSpeed: 20,
+						backDelay: 1000,
+						});
+				setTimeout(function (){
+					$(".lbody").fadeOut('slow');
+					$('.container').fadeIn(500,function() {
+						t1.start();
+						t2.start();
+						t3.start();
+						t4.start();
+						t5.start();
+						t6.start();
+						t7.start();
+					  });
+				},2500)
+		  });
+	</script>
+</body>
+</html>
